@@ -9,12 +9,12 @@ since = 2020
 customText = ""
 
 [dateFormat]
-published = "Jan 02, 2006"
-lastUpdated = "Jan 02, 2006 15:04 MST"
+published = "2006 Jan 02"
+lastUpdated = "2006 Jan 02 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+# emoji = "🍁"
+subtitle = "我想死，你的声音让我想化成灰。人是一种生物，我希望自己是风🍁"
 
 [sidebar.avatar]
 enabled = true
