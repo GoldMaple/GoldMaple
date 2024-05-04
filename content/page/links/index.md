@@ -7,11 +7,12 @@ links:
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 menu:
     main: 
-        weight: 4
+        weight: 5
         params:
             icon: link
 
 comments: false
+draft: true
 ---
 
 To use this feature, add `links` section to frontmatter.
