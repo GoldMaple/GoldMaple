@@ -276,40 +276,94 @@
     }
   }
 
-  //--------------------------------------------------
-  // 字体修改
-  @font-face {
-    font-family: "nzgrRuYinZouZhangKai";
-    src: url("/fonts/nzgrRuYinZouZhangKai.ttf") format("truetype");
+//--------------------------------------------------
+// 添加字体
+@font-face {
+    font-family: "润植家如印奏章楷";
+    src: url("/fonts/润植家如印奏章楷.ttf") format("truetype");
     unicode-range: U+1000-fffff
+}
+
+@font-face {
+  font-family: "楷体_GB2312";
+  src: url("/fonts/楷体_GB2312.ttf") format("truetype");
+  unicode-range: U+1000-fffff
+}
+
+@font-face {
+  font-family: "仿宋_GB2312";
+  src: url("/fonts/仿宋_GB2312.ttf") format("truetype");
+  unicode-range: U+1000-fffff
+}
+
+@font-face {
+  font-family: "微雅软黑";
+  src: url("/fonts/微雅软黑.ttf") format("truetype");
+  unicode-range: U+1000-fffff
+}
+
+@font-face {
+  font-family: "等线";
+  src: url("/fonts/等线.ttf") format("truetype");
+  unicode-range: U+1000-fffff
+}
+
+@font-face {
+  font-family: "原版宋体";
+  src: url("/fonts/原版宋体.ttf") format("truetype");
+  unicode-range: U+1000-fffff
 }
 
   @font-face {
     font-family: "GreatVibes-Regular";
     src: url("/fonts/GreatVibes-Regular.ttf") format("truetype");
 }
+
+  //正文正标题
+.article-title {
+  font-family: "原版宋体";
+  font-size: 3rem;
+}
+
+  //正文副标题
+.article-subtitle {
+  font-family: "润植家如印奏章楷";
+  font-size: 2rem;
+}
+
   //正文
   body,
 .article-content {
-    font-family: "nzgrRuYinZouZhangKai", "Lato";
-    font-size: 2.2rem;
-    font-weight: 480;
+    font-family: "原版宋体", "Lato";
+    font-size: 1.8rem;
+    font-weight: 500;
 }
+
 //名字
 .sidebar header .site-name {
-    font-family: "nzgrRuYinZouZhangKai", "GreatVibes-Regular";
+    font-family: "润植家如印奏章楷", "GreatVibes-Regular";
     font-size: 2rem;
 }
+
 //个性签名
 .sidebar header .site-description {
-  font-family: "nzgrRuYinZouZhangKai", "Lato";
+  font-family: "润植家如印奏章楷", "Lato";
   font-size: 2rem;
 }
+
 //搜索栏
 .search-form.widget label {
-  font-size: 2.1rem;
+  font-family: "润植家如印奏章楷";
+  font-size: 2.8rem;
 }
+.search-form {
+  font-family: "润植家如印奏章楷";
+  position: relative;
+  --button-size: 80px;
+}
+
 //归档
 .section-title {
+  font-family: "润植家如印奏章楷";
   font-size: 2.1rem;
 }
