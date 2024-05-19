@@ -1,14 +1,7 @@
 ---
-title: Example Category
+title: 月记
 description: A description of this category
-image:
-
----
-
-title: 日常随笔
-description: A description of this category
-image:
-
+image: cover.jpg
 ---
 # Badge style
 style:
