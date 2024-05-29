@@ -1,6 +1,6 @@
 ---
-title: 月记
-description: A description of this category
+title: 每月流水账
+description: 帐不平
 image: cover.jpg
 ---
 # Badge style

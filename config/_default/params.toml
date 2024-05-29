@@ -5,8 +5,8 @@ rssFullContent = true
 favicon = "/favicon.png"
 
 [footer]
-since = 2020
-customText = ""
+since = 2024
+customText = "尽量坦率地记录这段人生"
 
 [dateFormat]
 published = "2006 Jan 02"
@@ -14,7 +14,7 @@ lastUpdated = "2006 Jan 02 15:04 MST"
 
 [sidebar]
 # emoji = "🍁"
-subtitle = "你不必成功、有趣，但要尽量坦率地面对这段人生"
+subtitle = "你的声音让我想化成灰。"
 
 [sidebar.avatar]
 enabled = true
