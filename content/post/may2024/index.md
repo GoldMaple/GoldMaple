@@ -9,7 +9,7 @@ license:
 hidden: false
 comments: true
 draft: false
-categories: monthly
+categories: 月记
 tags:
     - 非洲历险记
 ---
