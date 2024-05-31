@@ -211,12 +211,12 @@ blockquote.quote {
     .main-container {
         min-height: 100vh;
         align-items: flex-start;
-        padding: 0 15px;
+        padding: 0 100px;
         gap: var(--section-separation);
         padding-top: var(--main-top-padding);
     
         @include respond(md) {
-        padding: 0 37px;
+        padding: 0 150px;//37
         }
     }
 
@@ -227,10 +227,15 @@ blockquote.quote {
     margin-right: auto;
   
     .left-sidebar {
-      order: -3;
+      order: -3;//-3
       max-width: var(--left-sidebar-max-width);
     }
-  
+
+    .right-sidebar {
+      order: 1;
+      max-width: var(--right-sidebar-max-width);
+    }
+
     &.extended {
       @include respond(md) {
         max-width: 1024px;
