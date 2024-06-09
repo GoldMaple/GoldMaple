@@ -1,6 +1,6 @@
 ---
-title: 不如我们做两棵彼此独立又相互依存的树
-description: 妈妈
+title: 大海是舒适的床
+description: 
 date: 2024-06-01T00:04:23+01:00
 image: 
 math: 
