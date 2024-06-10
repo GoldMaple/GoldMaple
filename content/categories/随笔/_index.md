@@ -1,7 +1,7 @@
 ---
-title: 日常随笔
+title: 随笔
 description: A description of this category
-image: cover.jpg
+image: 
 ---
 # Badge style
 style:

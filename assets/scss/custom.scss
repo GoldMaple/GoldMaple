@@ -210,11 +210,11 @@ blockquote.quote {
  
  
 /*主页文章图片圆角*/
-.article-list article {
---card-border-radius: 24px;
-}
+//.article-list article {
+//--card-border-radius: 24px;
+//}
 
-/*主页布局间距调整*/
+/*主页布局间距调整
 .main-container {
   gap: 50px; //文章宽度
 
@@ -222,7 +222,7 @@ blockquote.quote {
     padding: 0 30px;
     gap: 40px; //中等屏幕时的文章宽度
   }
-}
+}*/
 
 .related-contents {
   overflow-x: visible; //显示隐藏的图标
