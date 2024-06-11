@@ -1,6 +1,6 @@
 ---
-title: 随笔
-description: A description of this category
+title: 急就章
+description: 采撷一缕风🎐
 image: 
 ---
 # Badge style

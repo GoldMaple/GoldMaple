@@ -30,8 +30,8 @@ params:
     favicon:
 
     footer:
-        since: 2024
-        customText: 尽量坦率地记录这段人生
+        since: 2023
+        customText: 粗糙，鲜活。尽量坦率地记录这段人生。
 
     dateFormat:
         published: Jan 02, 2006

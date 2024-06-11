@@ -11,45 +11,6 @@
     }
 }
 
-// 主页布局留有一定的留白，这样可以美观一些。
-.container {
-  margin-left: auto;
-  margin-right: auto;
-
-  &.extended {
-      /* range: 768-1024 */
-      @include respond(md) {
-          max-width: 1024px;
-          --left-sidebar-max-width: 25%;
-          --right-sidebar-max-width: 30%;
-      }
-
-      /* range: 1024-1280 */
-      @include respond(lg) {  // 修改主页的三个组件的显示比例
-          max-width: 1280px;
-          --left-sidebar-max-width: 100%;
-          --right-sidebar-max-width: 50%;
-      }
-  }
-
-  &.compact {
-      @include respond(md) {
-          --left-sidebar-max-width: 25%;
-          max-width: 768px;//768px
-      }
-
-      @include respond(lg) {
-          max-width: 1024px;//1024px
-          --left-sidebar-max-width: 20%;
-      }
-
-      @include respond(xl) {
-          max-width: 1280px;//1280px
-      }
-  }
-}
-
-
 
 // .widget {
 //     max-height: 100vh;
