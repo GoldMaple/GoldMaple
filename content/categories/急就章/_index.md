@@ -4,7 +4,7 @@ description: 采撷一缕风🎐
 image: 
 ---
 # Badge style
-style:
-    background: "#2a9d8f"
-    color: "#fff"
+// style:
+    // background: "#2a9d8f"
+    // color: "#fff"
 ---
