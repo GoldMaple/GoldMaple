@@ -14,9 +14,9 @@ tags:
   - Hugo
 ---
 
-## 删除 RELATED CONTENTS 文章图片的颜色遮盖
+## 2024/6/15
+### 删除 RELATED CONTENTS 文章图片的颜色遮盖
 
-- 2024/6/15
 - 参考 
   - [hugo stack 主题美化 (yelleis.top)](https://yelleis.top/p/61fdb627/) 
   - [如何取消Archive页面中对Categories图片的颜色修正 · Issue #364 · CaiJimmy/hugo-theme-stack · GitHub](https://github.com/CaiJimmy/hugo-theme-stack/issues/364)
@@ -32,15 +32,13 @@ import { setupScrollspy } from 'ts/scrollspy';
 import { setupSmoothAnchors } from "ts/smoothAnchors";
 ```
 
-## 短代码：摘录引用
+### 短代码
 
-- 2024/6/15
 - 路径：`layouts/shortcodes`
 - 参考 
   - [Hugo | 在 Stack 主题上可行的短代码们 (sleepymoon.cyou)](https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E6%91%98%E5%BD%95%E5%BC%95%E7%94%A8)
 
-## 隐藏右侧年份归档目录
-- 2024/6/15
+### 隐藏右侧年份归档目录
 - 路径：`/config.yaml/`
 - 将想隐藏的部分添加注释
   
@@ -54,8 +52,7 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
             - tag-cloud
 ```
 
-## 在主页卡片显示标签
-- 2024/6/15
+### 在主页卡片显示标签
 - 路径：`layouts\partials\article\components\details.html`
 - 挑选喜欢的位置插入tags
 - 想美化格式直接问chatgpt
@@ -73,3 +70,7 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
     </div>
    {{ end }}
   ```
+
+## 2024/6/17
+
+### 配置Waline评论

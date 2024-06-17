@@ -1,6 +1,6 @@
 ---
-title: 急就章
-description: 内窥己身，浅陋感悟
+title: 人间事
+description: 尽量客观地记录见闻：每个人都是一个宇宙
 image: cover.jpg
 ---
 # Badge style

@@ -1,6 +1,6 @@
 ---
 title: 流水账
-description: 帐不平😿
+description: 琐碎日常，经常帐不平😿
 image: cover.jpg
 # Badge style
 style:
