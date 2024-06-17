@@ -1,7 +1,7 @@
 ---
 title: 急就章
 description: 采撷一缕风🎐
-image: 
+image: cover.jpg
 ---
 # Badge style
 // style:

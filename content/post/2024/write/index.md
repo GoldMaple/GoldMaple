@@ -1,5 +1,5 @@
 ---
-title: 书写的目的
+title: 写下去
 description: 
 date: 2024-06-15T00:04:23+01:00
 image: 
@@ -8,4 +8,7 @@ license:
 hidden: false
 comments: true
 draft: true
+tags:
+    - 非洲历险记
+    - 女性主义
 ---

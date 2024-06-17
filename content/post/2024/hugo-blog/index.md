@@ -35,12 +35,14 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
 ## 短代码：摘录引用
 
 - 2024/6/15
+- 路径：`layouts/shortcodes`
 - 参考 
   - [Hugo | 在 Stack 主题上可行的短代码们 (sleepymoon.cyou)](https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E6%91%98%E5%BD%95%E5%BC%95%E7%94%A8)
 
 ## 隐藏右侧年份归档目录
 - 2024/6/15
-- `/config.yaml/`将想隐藏的部分添加注释
+- 路径：`/config.yaml/`
+- 将想隐藏的部分添加注释
   
 ```
     widgets:
@@ -51,3 +53,23 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
             # - archives
             - tag-cloud
 ```
+
+## 在主页卡片显示标签
+- 2024/6/15
+- 路径：`layouts\partials\article\components\details.html`
+- 挑选喜欢的位置插入tags
+- 想美化格式直接问chatgpt
+  
+  ```
+    {{ if .Params.tags }}
+    <div>
+        <div class="article-tags">
+            {{ range (.GetTerms "tags") }}
+                <a href="{{ .RelPermalink }}" style="border-radius: 50px;padding: 2px 8px; display: inline-block;margin-right: 5px; margin-bottom: 5px; border: 1px solid;">
+                    #{{ .LinkTitle }}
+                </a>
+            {{ end }}
+        </div>
+    </div>
+   {{ end }}
+  ```

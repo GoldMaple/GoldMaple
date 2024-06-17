@@ -1,8 +1,7 @@
 ---
 title: 流水账
 description: 帐不平😿
-image: 
----
+image: cover.jpg
 # Badge style
 style:
     // background: "#2a9d8f"
