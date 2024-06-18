@@ -1,34 +1,18 @@
 ---
 title: Links
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 menu:
     main: 
         weight: 5
         params:
             icon: link
 
-comments: false
-draft: true
+comment: true
+draft: false
 ---
+欢迎与我交换友链！
 
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+| title  | 珊瑚阁GoldMaple  | 
+|---|---|
+| url  | https://goldmaple.github.io/  |
+| avatar  |  https://goldmaple.github.io/img/avatar_hue9942147f62801dbfb3b4b7ba3ccaaa2_323783_300x0_resize_box_3.png |
+| description  | 捕捉瓦坎达的风  |

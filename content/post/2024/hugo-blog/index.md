@@ -106,10 +106,4 @@ markup:
 		tabWidth: 4 //代码缩进字符数
 ```
 
-### 网站icon和avatar位置
-- 参考：[Hugo | 看中 Stack 主题的归档功能，搬家并做修改 | 小球飞鱼](https://mantyke.icu/posts/2021/f9f0ec87/#%E8%B0%83%E6%95%B4%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F)
-- 位置：`\config.yaml`
-- 操作：
-  - 将 Icon 命名为`favicon.png`，在根目录的`static`文件夹下新建`img`文件夹并放入其中
-  - 在`config.yaml`修改favicon参数为`/img/favicon.png`
-
+### 添加友链
