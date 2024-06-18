@@ -74,3 +74,4 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
 ## 2024/6/17
 
 ### 配置Waline评论
+- 参考：[Hugo Stack主题博客添加Waline评论系统](https://limuran.top/p/hugo-stack%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/)

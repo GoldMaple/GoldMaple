@@ -8,7 +8,7 @@ math:
 license: 
 hidden: false
 categories: 人间事
-comments: true
+comment: false
 draft: false
 tags:
     - 非洲历险记

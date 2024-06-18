@@ -55,7 +55,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: waline
 
         disqusjs:
             shortname:
@@ -84,8 +84,8 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL:
-            lang:
+            serverURL: https://goldmaple-waline-l622y2nmc-goldmaples-projects.vercel.app/
+            lang: zh-CN
             visitor:
             avatar:
             emoji:
@@ -94,7 +94,7 @@ params:
                 - name
                 - email
                 - url
-            placeholder:
+            placeholder: 
             locale:
                 admin: Admin
 

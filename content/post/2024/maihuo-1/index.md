@@ -6,7 +6,7 @@ image: cover2.jpg
 math: 
 license: 
 hidden: false
-comments: true
+comment: false
 draft: false
 categories: 急就章
 tags:
