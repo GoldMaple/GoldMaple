@@ -1,4 +1,5 @@
-baseurl: https://goldmaple.github.io/
+# baseurl: https://goldmaple.github.io/
+baseurl: http://goldmaple.info/
 languageCode: en-us
 theme: stack
 paginate: 5
@@ -88,15 +89,15 @@ params:
         waline:
             serverURL: https://goldmaple-waline-l622y2nmc-goldmaples-projects.vercel.app/
             lang: zh-CN
-            visitor:
-            avatar:
+            visitor: true
+            avatar: 
             emoji:
                 - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
             requiredMeta:
                 - name
                 - email
                 - url
-            placeholder: 
+            placeholder: ""
             locale:
                 admin: Admin
 

@@ -106,4 +106,8 @@ markup:
 		tabWidth: 4 //代码缩进字符数
 ```
 
-### 添加友链
+### Waline留言显示Failed to fetch，购买并配置域名
+
+- 参考：[Waline无法留言解决：配置二级域名](https://www.catelyn.one/p/waline%E6%97%A0%E6%B3%95%E7%95%99%E8%A8%80%E8%A7%A3%E5%86%B3%E9%85%8D%E7%BD%AE%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D/)
+- 域名网站：https://www.namesilo.com/
+- 
