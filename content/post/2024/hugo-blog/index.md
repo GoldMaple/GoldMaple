@@ -2,7 +2,7 @@
 title: Hugo建站应当有个记录
 description: 感谢所有，也免得我忘了
 
-date: 2024-05-30T01:11:42+01:00
+date: 2024-04-19T01:11:42+01:00
 image: 
 math: 
 license: 
@@ -13,6 +13,16 @@ categories:
 tags:
   - Hugo
 ---
+## 2024/5/19
+### 建站
+
+在我刚开始尝试建立博客的一个月，可以说是ʚ✞大失败✞ɞ
+
+先是忘记安装golang博客永远无法渲染成功，再是好不容易使用stack-quick-start建站成功，才发现使用这个模板建成的博客结构和网上教程的完全不同，很多东西无法参考。
+
+工作之余断断续续折腾了一个月。意外间发现了小球飞鱼老师分享的stack模板，靠着之前踩坑的经验教训，一次配置成功了！感谢！
+
+[Hugo | Hugo-stack-theme 主题魔改版 | 小球飞鱼](https://mantyke.icu/posts/2022/stack-theme-mod/)
 
 ## 2024/6/15
 ### 删除 RELATED CONTENTS 文章图片的颜色遮盖
@@ -22,9 +32,9 @@ tags:
   - [如何取消Archive页面中对Categories图片的颜色修正 · Issue #364 · CaiJimmy/hugo-theme-stack · GitHub](https://github.com/CaiJimmy/hugo-theme-stack/issues/364)
 - 操作：将`/assets/ts/main.ts`里第九行给注释掉
   
-```
+```ts
 import StackGallery from "ts/gallery";
-// import { getColor } from 'ts/color';   ←
+// import { getColor } from 'ts/color';
 import menu from 'ts/menu';
 import createElement from 'ts/createElement';
 import StackColorScheme from 'ts/colorScheme';
@@ -42,7 +52,7 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
 - 路径：`/config.yaml/`
 - 将想隐藏的部分添加注释
   
-```
+```yaml
     widgets:
         enabled:
             - search
@@ -57,7 +67,7 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
 - 挑选喜欢的位置插入tags
 - 想美化格式直接问chatgpt
   
-  ```
+  ```html
     {{ if .Params.tags }}
     <div>
         <div class="article-tags">
@@ -75,3 +85,31 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
 
 ### 配置Waline评论
 - 参考：[Hugo Stack主题博客添加Waline评论系统](https://limuran.top/p/hugo-stack%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/)
+
+## 2024/6/18
+
+### 调整代码块样式
+- 参考：[Hugo | 看中 Stack 主题的归档功能，搬家并做修改 | 小球飞鱼](https://mantyke.icu/posts/2021/f9f0ec87/#%E8%B0%83%E6%95%B4%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F)
+- 路径：`\config.yaml`
+
+```
+markup:
+	highlight:
+		codeFences: true //代码围栏功能，一般设为true
+		guessSyntax: true //猜测语法，设置为true后自动匹配可能的语法
+		hl_Lines: "" //从第几行开始高亮，一般不设置
+		lineNoStart: 1 //行号从编号几开始显示
+		lineNos: ture //是否显示行号
+		lineNumbersInTable: true //是否使用表来格式化行号和代码，一般设为true，设置true后页面的代码框就不再接连整个文章页面了，但是copy模块会只会复制行号，不知道为什么
+		noClasses: true //使用class标签，设为false后代码框背景消失
+		style: native //样式风格
+		tabWidth: 4 //代码缩进字符数
+```
+
+### 网站icon和avatar位置
+- 参考：[Hugo | 看中 Stack 主题的归档功能，搬家并做修改 | 小球飞鱼](https://mantyke.icu/posts/2021/f9f0ec87/#%E8%B0%83%E6%95%B4%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F)
+- 位置：`\config.yaml`
+- 操作：
+  - 将 Icon 命名为`favicon.png`，在根目录的`static`文件夹下新建`img`文件夹并放入其中
+  - 在`config.yaml`修改favicon参数为`/img/favicon.png`
+
