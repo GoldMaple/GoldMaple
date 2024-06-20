@@ -13,7 +13,7 @@ tags:
   - 理财
 ---
 ## 2024/6/19 卡塔尔Esim卡
-- 参考：(Ooredoo卡塔尔电话卡)[https://www.youtube.com/watch?v=kaPGuYd2HRo]
+- 参考：[Ooredoo卡塔尔电话卡](https://www.youtube.com/watch?v=kaPGuYd2HRo)
 - 网站：https://www.ooredoo.qa/web/en/prepaid-plans/buy-prepaid-sim/
 - 前置条件：5ber或支持esim的手机
 - 花费：0元

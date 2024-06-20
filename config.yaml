@@ -87,7 +87,7 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL: https://goldmaple-waline-l622y2nmc-goldmaples-projects.vercel.app/
+            serverURL: https://waline.goldmaple.info/
             lang: zh-CN
             visitor: true
             avatar: 
