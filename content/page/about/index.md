@@ -2,7 +2,7 @@
 title: About
 menu:
     main: 
-        weight: 4
+        weight: 3
         params:
             icon: about
 comment: false
