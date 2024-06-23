@@ -9,7 +9,7 @@ license:
 hidden: false
 comment: false
 draft: false
-categories: 急就章
+categories: thinking
 tags:
     - 非洲历险记
     - 我流读书笔记

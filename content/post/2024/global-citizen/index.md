@@ -9,7 +9,7 @@ license:
 hidden: false
 comments: true
 draft: false
-categories: 技术力
+categories: geek
 tags:
   - 理财
 ---

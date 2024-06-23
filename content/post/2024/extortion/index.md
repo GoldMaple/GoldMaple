@@ -9,7 +9,7 @@ license:
 hidden: false
 comment: false
 draft: false
-categories: 人间事
+categories: record
 tags:
   - 非洲历险记
 ---

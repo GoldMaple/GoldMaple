@@ -9,7 +9,7 @@ license:
 hidden: false
 comments: true
 draft: true
-categories: 技术力
+categories: geek
 tags:
   - Hugo
 ---

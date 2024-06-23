@@ -8,7 +8,7 @@ image: cover.jpg
 math: 
 license: 
 hidden: false
-categories: 人间事
+categories: record
 comment: false
 draft: false
 tags:

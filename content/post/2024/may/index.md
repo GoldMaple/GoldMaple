@@ -9,7 +9,7 @@ license:
 hidden: false
 comment: false
 draft: false
-categories: 流水账
+categories: monthly
 tags:
     - 非洲历险记
     - 语言

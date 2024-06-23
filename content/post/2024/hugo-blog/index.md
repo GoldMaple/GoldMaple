@@ -9,7 +9,7 @@ license:
 hidden: false
 comments: true
 draft: false
-categories: 技术力
+categories: geek
 tags:
   - Hugo
 ---
@@ -113,3 +113,67 @@ markup:
   - [Waline无法留言解决：配置二级域名](https://www.catelyn.one/p/waline%E6%97%A0%E6%B3%95%E7%95%99%E8%A8%80%E8%A7%A3%E5%86%B3%E9%85%8D%E7%BD%AE%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D/)
   - [解决Vercel被墙导致Twikoo无法评论的问题：在Vercel添加子域名](https://thirdshire.com/vercel-custom-subdomain/)
 - 域名网站：https://www.namesilo.com/
+
+## 2024/6/23 更改文章和目录网址
+分享博文的链接太不简洁
+
+我的hugo设置的是英文版，但是目录是中文，不知道是不是因为这个原因总是出错，总之一起修改成英文的
+
+操作：
+
+1）在`/config.yaml`中增加categories行
+```yaml
+permalinks:
+    post: /:year/:slug/
+    page: /:slug/
+    categories: /categories/:slug/
+```
+2）`/content/categories/`中更改目录的文件夹名为英语
+
+3） `_index.md`文件表头添加slug以及想显示的文件夹名title
+```yaml
+title: 技术力
+slug: geek
+description: 
+image: cover.jpg
+```
+4）修改每篇博文表头目录为英文
+这时发现虽然索引跳转正确，但是右侧widget的categories显示的是英文的目录，问了下Chatgpt
+> 在Hugo的首页上，如果分类（categories）显示的是slug而不是title，可以通过自定义模板来解决这个问题。你需要修改Hugo的模板文件，以确保在显示分类时使用分类的title而不是slug。
+
+操作:将`/layouts/partials/widget/categories.html`的代码修改为
+
+```html
+{{- $query := first 1 (where .Site.Pages "Layout" "==" "archives") -}}
+{{- if $query -}}
+    {{- $archivesPage := index $query 0 -}}
+    <section class="widget categories">
+        <div class="widget-icon">
+            {{ partial "helper/icon" "infinity" }}  
+        </div> 
+        <h2 class="widget-title section-title">Categories</h2>
+    <div class="widget-categories--list">
+<div class="widget">
+    <h3 class="widget-title"> {{ T "widget_categories" }}</h3>
+    <div class="widget-body">
+        <div class="category-list">
+            {{- range $name, $taxonomy := $.Site.Taxonomies.categories }}
+            {{- with $.Site.GetPage (printf "/categories/%s" $name) }}
+            <div class="category-list-item">
+                <a href="{{ .Permalink }}" class="category-list-link">
+                    {{ .Title }} <!-- 使用分类页面的标题 -->
+                    <span class="category-list-count">{{ $taxonomy.Count }}</span>
+                </a>
+            </div>
+            {{- end }}
+            {{- end }}
+        </div>
+    </div>
+</div>
+    </div>
+    </section>
+{{- else -}}
+    {{- warnf "Archives page not found. Create a page with layout: archives." -}}
+{{- end -}}
+
+```

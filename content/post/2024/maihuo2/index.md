@@ -7,7 +7,7 @@ image: cover.jpg
 math: 
 comments: true
 draft: true
-categories: 急就章
+categories: thinking
 tags:
     - 非洲历险记
     - 刍议
