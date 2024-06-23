@@ -12,7 +12,7 @@
                 <div class="widget-body">
                     <div class="category-list">
                         {{- range $name, $taxonomy := $.Site.Taxonomies.categories }}
-                        {{- $catPage := index $.Site.Pages (printf "categories/%s" $name) }}
+                        {{- $catPage := $.Site.GetPage (printf "categories/%s" $name) }}
                         {{- if $catPage }}
                         <div class="category-list-item">
                             <a href="{{ $catPage.Permalink }}" class="category-list-link">
