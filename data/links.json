@@ -1,14 +1,10 @@
 [
     {
-        "title": "小球飞鱼",
-        "website": "https://mantyke.icu/",
-        "image": "mantyke.png",
-     "description": "我们会一起遇见鲸鱼吗？"
-    },
-	{
-        "title": "友情链接2",
-        "website": "",
-        "image": "",
-     "description": ""
+        "title": "谢谢所有的鱼",
+        "website": "https://gregueria.icu/",
+        "image": "tiger.png",
+        "description": "So Long, and Thanks for All the Fish",
+        "notes":"小鱼，"
     }
+
 ]

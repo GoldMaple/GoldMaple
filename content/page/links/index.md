@@ -9,13 +9,18 @@ menu:
 comment: true
 draft: false
 ---
-链接建设中...
+![故事的开始](image.png)
 
-欢迎与我交换友链！
 
-| title  | 珊瑚阁GoldMaple  | 
-|---|---|
-| url  | http://goldmaple.info/  |
-| avatar  |  http://goldmaple.info/img/avatar_hue9942147f62801dbfb3b4b7ba3ccaaa2_323783_300x0_resize_box_3.png |
-| description  | 捕捉瓦坎达的风  |
+---
+
+## Friends
+✨[谢谢所有的鱼](https://gregueria.icu/)/小鱼，写作很厉害的朋友！隽永而有氛围感的文字，一句话常常让我反复品读。
+
+---
+
+## 我的链接
+- 名称：珊瑚阁GoldMaple
+- 链接：http://goldmaple.info/
+- 个签：捕捉瓦坎达的风
 

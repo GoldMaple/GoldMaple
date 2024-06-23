@@ -36,12 +36,16 @@ tags:
   - 空运：10.4RMB
 
 ## 2024/5/15 Chipper
+### 入金
 - 6.3 开户成功
   - 美金卡开卡费3USD
 - 6.3 注册海妖，使用OCBC入金海妖购买USDT，20U手续费1.16U
   - 用TRON链入金Chipper，手续费3U
   - 用P链入金Chipper，手续费1U
 - 6.17 注册币安，在币安用支付宝C2C购买USDT，并用P链入金Chipper，全流程手续费0.2U
+### 适用
+- MTN airtime充值
+- Chatgpt 9900奈拉/月
 
 ## 2024/5/16 5ber卡
 - 花费：163.4RMB
