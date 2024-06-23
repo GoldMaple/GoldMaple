@@ -22,12 +22,12 @@ tags:
 
 工作之余断断续续折腾了一个月。意外间发现了小球飞鱼老师分享的stack模板，靠着之前踩坑的经验教训，一次配置成功了！感谢！
 
-[Hugo | Hugo-stack-theme 主题魔改版 | 小球飞鱼](https://mantyke.icu/posts/2022/stack-theme-mod/)
+- 参考鸣谢：[Hugo | Hugo-stack-theme 主题魔改版 | 小球飞鱼](https://mantyke.icu/posts/2022/stack-theme-mod/)
 
 ## 2024/6/15
 ### 删除 RELATED CONTENTS 文章图片的颜色遮盖
 
-- 参考 
+- 参考鸣谢
   - [hugo stack 主题美化 (yelleis.top)](https://yelleis.top/p/61fdb627/) 
   - [如何取消Archive页面中对Categories图片的颜色修正 · Issue #364 · CaiJimmy/hugo-theme-stack · GitHub](https://github.com/CaiJimmy/hugo-theme-stack/issues/364)
 - 操作：将`/assets/ts/main.ts`里第九行给注释掉
@@ -45,7 +45,7 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
 ### 短代码
 
 - 路径：`layouts/shortcodes`
-- 参考 
+- 参考鸣谢
   - [Hugo | 在 Stack 主题上可行的短代码们 (sleepymoon.cyou)](https://www.sleepymoon.cyou/2023/hugo-shortcodes/#%E6%91%98%E5%BD%95%E5%BC%95%E7%94%A8)
 
 ### 隐藏右侧年份归档目录
@@ -84,12 +84,12 @@ import { setupSmoothAnchors } from "ts/smoothAnchors";
 ## 2024/6/17
 
 ### 配置Waline评论
-- 参考：[Hugo Stack主题博客添加Waline评论系统](https://limuran.top/p/hugo-stack%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/)
+- 参考鸣谢：[Hugo Stack主题博客添加Waline评论系统](https://limuran.top/p/hugo-stack%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/)
 
 ## 2024/6/18
 
 ### 调整代码块样式
-- 参考：[Hugo | 看中 Stack 主题的归档功能，搬家并做修改 | 小球飞鱼](https://mantyke.icu/posts/2021/f9f0ec87/#%E8%B0%83%E6%95%B4%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F)
+- 参考鸣谢：[Hugo | 看中 Stack 主题的归档功能，搬家并做修改 | 小球飞鱼](https://mantyke.icu/posts/2021/f9f0ec87/#%E8%B0%83%E6%95%B4%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F)
 - 路径：`\config.yaml`
 
 ```
@@ -108,6 +108,8 @@ markup:
 
 ### Waline留言显示Failed to fetch，购买并配置域名
 
-- 参考：[Waline无法留言解决：配置二级域名](https://www.catelyn.one/p/waline%E6%97%A0%E6%B3%95%E7%95%99%E8%A8%80%E8%A7%A3%E5%86%B3%E9%85%8D%E7%BD%AE%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D/)
+- 参考鸣谢：
+  - [Hugo Stack主题博客添加Waline评论系统](https://limuran.top/p/hugo-stack%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/)
+  - [Waline无法留言解决：配置二级域名](https://www.catelyn.one/p/waline%E6%97%A0%E6%B3%95%E7%95%99%E8%A8%80%E8%A7%A3%E5%86%B3%E9%85%8D%E7%BD%AE%E4%BA%8C%E7%BA%A7%E5%9F%9F%E5%90%8D/)
+  - [解决Vercel被墙导致Twikoo无法评论的问题：在Vercel添加子域名](https://thirdshire.com/vercel-custom-subdomain/)
 - 域名网站：https://www.namesilo.com/
-- 
