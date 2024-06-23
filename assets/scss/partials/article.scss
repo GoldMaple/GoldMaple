@@ -141,6 +141,18 @@
 
 /* Compact style article list */
 .article-list--compact {
+    // .article-list--compact友链备注字体
+    .article-time {
+        font-size: 1.4rem;
+        margin-bottom: 10px; /* 调整底部间距 */
+    }
+    .article-link {
+        color:#228b68;
+        font-size: 1.3rem;
+        font-style: italic;
+    }
+
+
     border-radius: var(--card-border-radius);
     box-shadow: var(--shadow-l1);
     background-color: var(--card-background);

@@ -2,6 +2,9 @@
 {{ define "main" }}
     {{ partial "article/article.html" . }}
     
+    <h3 style="color: #228b68;">Friends</h3>
+
+
     <div class="article-list--compact links">
         {{ $siteResources := resources }}
         {{ range $i, $link :=  $.Site.Data.links }}
@@ -11,32 +14,36 @@
                         <h2 class="article-title">
                             {{- $link.title -}}
                         </h2>
-                        <footer class="article-time">
+                        
                             {{ with $link.description }}
+                            <footer class="article-time">
                                 {{ . }}
-                            {{ else }}
-                                {{ $link.website }}
+                            </footer>
                             {{ end }}
-                        </footer>
-                    </div>
+                            {{ with $link.notes }}
+                            <footer class="article-link">
+                                {{ . }}
+                            </footer>
+                            {{ end }}
+                            </div>
             
-                    {{ if $link.image }}
-                        {{ $image := $siteResources.Get (delimit (slice "link-img/" $link.image) "") | resources.Fingerprint "md5" }}
-                        {{ $imageResized := $image.Resize "120x120" }}
-                        <div class="article-image">
-                            <img src="{{ $imageResized.RelPermalink }}" width="{{ $imageResized.Width }}" height="{{ $imageResized.Height }}"
-                                loading="lazy" data-key="links-{{ $link.website }}" data-hash="{{ $image.Data.Integrity }}">
-                        </div>
-                    {{ end }}
+                    {{ with $link.image }}
+                    <div class="article-image">
+                        <img src="{{ . }}" loading="lazy">
+                    </div>
+                {{ end }}
                 </a>
             </article>
         {{ end }}
     </div>
 
-    {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
+
+
+    
+    {{ if not (eq .Params.comments false) }}
         {{ partial "comments/include" . }}
     {{ end }}
-
+    
     {{ partialCached "footer/footer" . }}
 
 {{ end }}

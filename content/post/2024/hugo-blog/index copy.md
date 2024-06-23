@@ -8,7 +8,7 @@ math:
 license: 
 hidden: false
 comments: true
-draft: false
+draft: true
 categories: geek
 tags:
   - Hugo
@@ -198,4 +198,22 @@ image: cover.jpg
       
      Hidden explanation
 </details>
+```
+### 友链
+- 参考鸣谢：[Hugo Stack主题装修笔记Part 2](https://thirdshire.com/hugo-stack-renovation-part-two/)
+- 跟着流程下来调整备注格式
+- 在`assets/scss/partials/article.scss`里找到`.article-list--compact`并增加`.article-link`样式。
+```scss
+/* Compact style article list */
+.article-list--compact {
+    // .article-list--compact友链备注字体
+    .article-time {
+        font-size: 1.4rem;
+        margin-bottom: 10px; /* 调整底部间距 */
+    }
+    .article-link {
+        color:#228b68;
+        font-size: 1.3rem;
+        font-style: italic;
+    }
 ```
