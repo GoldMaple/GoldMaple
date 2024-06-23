@@ -1,6 +1,7 @@
 ---
 title: 在繁华商场前被持枪警察勒索15万奈拉的经过
 description: 最后砍价到5万
+slug: extortion
 date: 2024-06-22T20:11:42+01:00
 image: 
 math: 

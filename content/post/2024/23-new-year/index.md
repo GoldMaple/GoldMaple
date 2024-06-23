@@ -1,9 +1,10 @@
 ---
 title: 二十三岁的新年
 description: 《明亮的夜晚》与配得感
+slug: 23-new-year
 date: 2023-12-31T12:00:00+01:00
 image: cover.jpg
-categories: 急就章
+categories: thinking
 tags:
     - 我流读书笔记
 ---

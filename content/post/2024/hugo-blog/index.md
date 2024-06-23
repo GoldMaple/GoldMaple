@@ -1,7 +1,7 @@
 ---
 title: Hugo建站应当有个记录
 description: 感谢所有，也免得我忘了
-
+slug: hugo-blog
 date: 2024-04-19T01:11:42+01:00
 image: 
 math: 
