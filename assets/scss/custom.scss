@@ -131,8 +131,6 @@ blockquote.quote {
   }
 }
 
-
-
 //修改选中颜色
 ::selection {
     color: #fff;
@@ -195,21 +193,22 @@ blockquote.quote {
     }
   }
 
-    // 文章封面高度
-    .article-list article .article-image img {
-        width: 100%;
-        height: 200px !important;
-        object-fit: cover;
-      
-        @include respond(md) {
-            height: 250px !important;
-        }
-       //这里才是真正调整高度的地方
-        @include respond(xl) {
-            height: 250px !important;
-        }
-      }
-    
+// 文章封面高度
+.article-list article .article-image img {
+  width: 100%;
+  height: 200px !important;
+  object-fit: cover;
+
+@include respond(md) {
+  height: 250px !important;
+ }
+//这里才是真正调整高度的地方
+ @include respond(xl) {
+ height: 400px !important;
+ }
+}
+  
+
 
 .related-contents {
   overflow-x: visible; //显示隐藏的图标

@@ -1,9 +1,9 @@
 ---
-title: 五月：非洲的雨季
+title: 五月 | 非洲的雨季
 description: 雨季终于到了
-slug: may
+slug: may2024
 date: 2024-05-29T01:11:42+01:00
-image: 
+image: cover.jpg
 math: 
 license: 
 hidden: false
