@@ -8,7 +8,7 @@ math:
 license: 
 hidden: false
 comment: false
-draft: false
+draft: true
 categories: thinking
 tags:
 
