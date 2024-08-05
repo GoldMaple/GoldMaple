@@ -33,7 +33,9 @@ draft: false
 
 ## Friends
 
-✨[谢谢所有的鱼](https://gregueria.icu/):小鱼，写作很厉害的朋友！隽永而有氛围感的文字，一句话常常让我反复品读。
+🐈‍ [谢谢所有的鱼](https://gregueria.icu/):小鱼，写作很厉害的朋友！隽永而有氛围感的文字，一句话常常让我反复品读。
+
+🥯 [圆面包如何逃离狐口](https://sunnkynews.icu/):盐，面包屑炸面包蟹。
 
 ---
 
