@@ -41,6 +41,13 @@ draft: false
 
 ## Focus
 
+🧶[第三夏尔 | Third Shire](https://thirdshire.com/)
+
+🐈[A Purrception (tortie.me)](https://tortie.me/)
+
+⭐[g1eny0ung 的博客](https://g1en.site/)
+
+
 
 ---
 

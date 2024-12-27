@@ -1,7 +1,7 @@
 ---
 title: 七月 | 痛苦而甜蜜
 description: 
-slug: july2024
+slug: july
 date: 2024-08-01T19:30:42+01:00
 image: cover.jpeg
 math: 

@@ -1,7 +1,7 @@
 ---
 title: 五月 | 非洲的雨季
 description: 雨季终于到了
-slug: may2024
+slug: may
 date: 2024-05-29T01:11:42+01:00
 image: cover.jpg
 math: 
