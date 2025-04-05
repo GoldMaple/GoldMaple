@@ -12,8 +12,8 @@ categories: record
 comment: false
 draft: false
 tags:
-    - 非洲历险记
-    - 女性主义
+    - Africa
+    - Feminism
 ---
 封面图为笔者小金2023年10月1日摄于尼日利亚拉各斯Nike Art Gallery的本土画家画作，作品细致描绘了拉各斯的夜景，作者不详
 

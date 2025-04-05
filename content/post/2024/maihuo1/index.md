@@ -11,8 +11,8 @@ comment: false
 draft: false
 categories: thinking
 tags:
-    - 非洲历险记
-    - 我流读书笔记
+    - Africa
+    - Read
 ---
 
 {{< blockquote author="御井烹香" link="https://www.jjwxc.net/onebook.php?novelid=6287584" title="《买活》" >}}

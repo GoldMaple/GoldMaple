@@ -11,7 +11,7 @@ comment: false
 draft: false
 categories: record
 tags:
-  - 非洲历险记
+  - Africa
 ---
 
 ## 事件伊始

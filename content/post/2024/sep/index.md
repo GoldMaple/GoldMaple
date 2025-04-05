@@ -11,6 +11,7 @@ comment: false
 draft: false
 categories: monthly
 tags:
+- Travel
 
 ---
 {{< spotify type="track" id="1OyakDSOcvuZjvESJxri3w" height="80px">}}

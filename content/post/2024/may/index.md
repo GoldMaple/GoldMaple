@@ -11,9 +11,7 @@ comment: false
 draft: false
 categories: monthly
 tags:
-    - 非洲历险记
-    - 语言
-    - 理财
+    - Africa
 ---
 > 一眨眼小半年过去了，想记录的事情有很多，博客却一直在欠债，白白流逝却没有留下痕迹的时间让我感受到：没有记录，就不算生活过。
 >

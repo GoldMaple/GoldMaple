@@ -6,7 +6,7 @@ date: 2023-12-31T12:00:00+01:00
 image: cover.jpg
 categories: thinking
 tags:
-    - 我流读书笔记
+    - Read
 ---
 
 ## 「我是可以如此幸福的吗？」
