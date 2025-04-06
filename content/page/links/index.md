@@ -37,6 +37,8 @@ draft: false
 
 🥯 [圆面包如何逃离狐口](https://sunnkynews.icu/):盐，面包屑炸面包蟹。
 
+💚 [杞青](https://solanalifeblog.vercel.app/):在世一日
+
 ---
 
 ## Focus
