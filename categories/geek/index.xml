@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术力 on GoldMaple</title>
+    <link>http://goldmaple.info/categories/geek/</link>
+    <description>Recent content in 技术力 on GoldMaple</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jun 2024 01:11:42 +0100</lastBuildDate>
+    <atom:link href="http://goldmaple.info/categories/geek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>世界公民计划</title>
+      <link>http://goldmaple.info/2024/global-citizen/</link>
+      <pubDate>Wed, 19 Jun 2024 01:11:42 +0100</pubDate>
+      <guid>http://goldmaple.info/2024/global-citizen/</guid>
+      <description>与墙斗，其乐无穷 2024/3/15 OCBC银行卡（已废） 过程 3.15 了解办卡信息 3.16 注册成功，申请360卡 3.22 终于解决入金问题 3.29 付费关闭高管理费SSA账户：花费30S</description>
+    </item>
+    <item>
+      <title>Hugo建站应当有个记录</title>
+      <link>http://goldmaple.info/2024/hugo-blog/</link>
+      <pubDate>Fri, 19 Apr 2024 01:11:42 +0100</pubDate>
+      <guid>http://goldmaple.info/2024/hugo-blog/</guid>
+      <description>2024/5/19 建站 在我刚开始尝试建立博客的一个月，可以说是ʚ✞大失败✞ɞ 先是忘记安装golang博客永远无法渲染成功，再是好不容易使用stack-qui</description>
+    </item>
+  </channel>
+</rss>
