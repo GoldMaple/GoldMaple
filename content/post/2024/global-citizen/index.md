@@ -15,7 +15,7 @@ tags:
 ---
 > 与墙斗，其乐无穷
 
-## 2024/3/15 OCBC银行卡
+## 2024/3/15 OCBC银行卡（已废）
 ### 过程
 - 3.15 了解办卡信息
 - 3.16 注册成功，申请360卡
@@ -66,6 +66,10 @@ tags:
 - 网站：https://www.ooredoo.qa/web/en/prepaid-plans/buy-prepaid-sim/
 - 前置条件：5ber或支持esim的手机
 - 花费：0元
+
+## 2025/5/26 尼日利亚国际驾照
+- 可以作为尼日利亚地区的地址证明
+- 当即完成了bybit的认证
 
 封面图来自:
 该图片由<a href="https://pixabay.com/zh/users/cdd20-1193381/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4916123">愚木混株 Cdd20</a>在<a href="https://pixabay.com/zh//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4916123">Pixabay</a>上发布
